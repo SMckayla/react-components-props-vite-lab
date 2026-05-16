@@ -1,4 +1,7 @@
-function About({ image, about }) {
+function About({
+  image = "https://via.placeholder.com/215",
+  about,
+}) {
   // This component displays information about the blog
 
   return (
